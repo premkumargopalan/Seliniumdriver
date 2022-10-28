@@ -1,0 +1,228 @@
+JavaScript: (ES5 & ES6)
+-----------------------
+
+JavaScript is a scripting language that enables you to     js is a high level objeect oriented programing language thats id used  many website for scripting the webpages
+create dynamically updating content, control multimedia,    It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document.
+ animate images, and pretty much everything else.
+
+Data Types:
+----------
+Numbers    - used for decimal & integer
+
+String     - sequence of characters
+
+Boolean    - true or false
+
+undefined  - value taken by that variable is not yet defined.
+
+null       - empty value
+
+Adavnced(Symbol & Biglint)
+
+variables:
+---------
+let       - values can be changed
+            let is block scoped
+
+const     - values can't be changed
+            const is block scoped
+
+var       - It is similar to let (ES6)
+            var is function scoped
+
+Basic Operators:
+----------------
+assign    (=)
+increment (i++, i += 1, i = i + 1)
+decrement (i--, i -= 1, i = i - 1)
+compare   (> , < , >= , <=)
+Maths     (+ , - , / , * , %)
+equal     (== , ===)
+logical   (&& , || , !)
+
+String & Template literals:
+--------------------------
+we can print string in the desired format.
+
+Control Statements:
+------------------
+for
+foreach ------ Array
+if else
+switch
+while
+do while
+break
+continu e
+
+Type conversion & Type coersion:
+--------------------------------
+
+String into number ------ Number(variable)
+number into String ------ String(variable)
+
+Type coersion:
+--------------
+JS can convert numbers into string and string into numbers behind the scene.
+
+Ex:
+---
+console.log('24' * '2');
+
+Truthy & falsy values:
+------------------------
+0
+''
+undefined
+null
+Nan
+
+Type of variables:
+--------------------
+
+To get to know the type of variables.
+
+const input = prompt('Enter your lucky number?');
+console.log(input,typeof input);
+console.log(Number(input) + 100);
+
+
+Statement & Expression:
+-----------------------
+Statement --- console.log("condition false"); 
+Expression -- console.log(`Hi ${24-(21-3)} is a number`); 
+
+Ternary Operator:
+----------------
+age >= 18 ?  console.log('I can drink') : console.log(`I can't drink`);
+
+Strict Mode:
+-----------
+It makes error visible in console.
+It also intimates reserved keywords.
+
+Transpilers:
+------------
+ES6 code convert into ES5 by using transpilers.
+
+Ex: babel js
+
+During Development:
+------------------------
+we will use latest google chrome
+
+During Production:
+-----------------------
+use babel to transpile our code.
+
+ES6
+-----
+var
+arrow
+spread operators
+destructing
+default parameters
+
+Functions:
+-----------
+1. Declaration
+2. Expression
+3. Arrow
+
+Array:
+-------
+It is used to store multiple values in a single variable.
+
+Basic Methods:
+----------------
+push     -- it is used to add values
+            it return length
+
+unshift  -- it is used to add value but in the begining
+            it return length
+
+pop      -- it is used remove the value
+            it return popped element.(removed value)
+
+shift    -- it remove element at the start
+            it return removed element.
+
+indexOf  -- it is used to identify the index of value.
+            it return index.
+
+includes -- it helps to check whether value is presented or not
+            it return boolean.
+
+Objects - heap memory
+--------------------------
+To store multiple values in a single variable.
+
+we can't provide key to value in array. But in objects we can provide key to each value.
+
+* Dot vs bracket notation.
+* this keyword.
+
+Task:
+----
+Print : karthi is a age years old and he has a/no driver license.
+
+Scope Chain:
+------------
+  scope is a space or environment where variables are live or declared.
+
+3 types:
+-------
+* Global Scope ---- Global Variable
+* Function Scope -- Local Variable   ----- let,const & var are function scoped
+* Block Scope ----- Block variables  ----- let & const are block scoped & functions are block scoped in strict mode only
+
+Hoisting & TDZ (Temperoal Dead Zone)
+------------------------------------
+
+Hoisting:
+--------
+   Makes some types of variables accessible/usable in code before they are actually declared.
+
+why hoisting?
+------------
+using function before declaration
+
+
+                    Hoisted                   Initial value                Scope
+                    --------                  --------------              --------
+var                   yes                       undefined                  function 
+
+let & const           no                         TDZ                       block
+
+function              yes                     actual function              block
+
+function expression and arrow function hoisting based upon let,const & var variables  
+
+This keyword:
+-------------
+ * It is a variable that is created for every execution.
+
+ * It is not static  
+
+Method Borrowing:
+Primitive vs References:
+Default Parameters:
+Spread Operators:
+default parameters:
+-------------------------
+
+DOM Manipulation
+Events
+Projects
+
+Function
+  call back
+  Higher order
+  bind
+
+Array
+
+
+
+            
+

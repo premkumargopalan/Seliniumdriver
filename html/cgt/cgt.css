@@ -1,0 +1,100 @@
+body{
+background-color: beige;
+width: 1050px;
+margin-left: 150px;
+margin-right: 150px; 
+
+}
+.cgt{
+
+ height: auto;
+}
+.lg {
+    background-image: url(./img/logo\ 2.png);
+    width: 1050px;
+    height: 170px;
+    margin: 0%;
+
+}
+
+.logo >img{
+    height: 150px;
+    width: 150px;
+    margin-right: 450px;
+    margin-left: 450px;
+   
+    
+}
+.logo >nav > ul >li{
+    display: inline-block;
+    
+}
+.logo > nav > ul > li >a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif; 
+    font-size: 20px;
+}
+.logo nav{
+    background-color:black ;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.course a{
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     font-family: sans-serif;
+     
+}
+.course{
+    margin:0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    background-color:whitesmoke ;
+    width: 100px;  
+    padding: 10px;
+    z-index: 999;
+    
+}
+.logo > nav > ul >li:hover,.course >li > a:hover{
+background-color: orange;
+}
+
+.logo > nav > ul > li:hover .course{
+    display: block; 
+}
+
+.banner img{
+    width: 1050px;    
+}
+.logo input{
+    float: right;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.content h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: crimson;
+
+}
+.content p{
+    font-size: 20px;
+    text-align: center;
+}
+.content h3{
+    color: firebrick;
+}
+.aside{
+    float: right;
+    padding: 10px;
+    margin: 0px;
+}
+.aside >ul >li{
+    padding: 5px;
+    
+}
